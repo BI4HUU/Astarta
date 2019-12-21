@@ -1,10 +1,52 @@
+.d-none2
+	display none
 header
-	height 80px
+	min-height 80px
 	color white
 	background-color #1a303d
+	.h4
+		@media screen and (min-width: 570px)
+			font-size 1.3rem
+		@media screen and (min-width: 600px)
+			font-size 1.4rem
+		@media screen and (min-width: 900px)
+			font-size 1.5rem
 	.row
-		height 80px
+		min-height 60px
+	nav
+		display flex
+		@media screen and (min-width: 570px)
+			display flex!important
+		@media screen and (max-width: 570px)
+			flex-direction: column
+			width 100%
+	a
+		margin-bottom 0!important
+	.nav_item
+		@media screen and (max-width: 570px)
+			padding 10px
+			margin-top 5px
+			margin-bottom 5px!important
 
-
-
-
+.burger
+	display none
+	height 30px
+	width 35px
+	cursor pointer
+	@media screen and (max-width: 570px)
+		display: flex!important
+	&_line
+		width 35px
+		height 2px
+		background #fff
+	&_close
+		.burger_line:nth-child(1)
+			transform: rotate(55deg)
+			transform-origin: 0 100%
+			width 40px
+		.burger_line:nth-child(2)
+			display none
+		.burger_line:nth-child(3)
+			transform: rotate(-55deg)
+			transform-origin: 0 100%
+			width 40px

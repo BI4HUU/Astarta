@@ -1,0 +1,55 @@
+#answer_pre
+	overflow hidden
+	height 80px
+	&_rotate
+		height 90px
+		width 130%
+		margin-left -10%
+		transform: rotate(2.2deg)
+		transform-origin: 0 100%
+		background-color #eeeeee
+#answer
+	background-color #eeeeee
+	h2.h2
+		color: #11719f
+		font-weight: 600
+.answer_wrap
+	background #ffffff
+	width 100%
+	&_item
+		max-height: 333px
+		transition: 0.5s
+		border-bottom 1px solid #dddddd
+	h5
+		color rgb(110, 193, 228)
+		font-weight 600
+	p
+		box-sizing: border-box
+		padding-top 18px
+		padding-bottom 18px
+
+.answer_wrap .h5_show
+	color #61ce70
+
+.answer_wrap_item_h5
+	display flex
+	flex-wrap: nowrap
+
+.answer_wrap_item_p
+	transition: 0.5s
+	overflow hidden
+	height 0px
+
+.arrow
+	position: relative
+	height 20px
+	width 20px
+
+.arrow::after
+	transition: 0.5s
+	content: ''
+	position: absolute
+	border: 6px solid transparent
+	border-left: 6px solid #222222
+.arrow_show::after
+	transform: rotate(-90deg)
