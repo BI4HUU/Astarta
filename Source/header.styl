@@ -1,0 +1,85 @@
+.d-none2
+	display none
+.h4, .h4_blue
+	font-size 0.8rem
+	@media screen and (min-width: 222px)
+		font-size 0.9rem
+	@media screen and (min-width: 340px)
+		font-size 1rem
+	@media screen and (min-width: 370px)
+		font-size 1.1rem
+	@media screen and (min-width: 470px)
+		font-size 1.3rem
+	@media screen and (min-width: 570px)
+		font-size 1.3rem
+	@media screen and (min-width: 600px)
+		font-size 1.4rem
+	@media screen and (min-width: 900px)
+		font-size 1.5rem
+
+.h4_blue
+	width 100%
+	color: #11719f
+	font-weight: 600
+	text-align center
+	text-transform uppercase
+	@media screen and (max-width: 371px)
+		font-size 1.1rem
+
+header
+	min-height 50px
+	color white
+	background-color #1a303d
+	.row
+		min-height 50px
+	nav.nav
+		display none
+		@media screen and (min-width: 1001px)
+			display flex!important
+		@media screen and (max-width: 1000px)
+			flex-direction: column
+			width 100%
+	a
+		margin-bottom 0!important
+	.nav_item
+		@media screen and (max-width: 1000px)
+			padding 10px
+			margin-top 5px
+			margin-bottom 5px!important
+
+	nav.nav_burgerAlways
+		display none
+		flex-direction: column
+		width 100%
+		.nav_item
+			padding 10px
+			margin-top 5px
+			margin-bottom 5px!important
+
+.burger
+	display none
+	height 30px
+	width 35px
+	cursor pointer
+	@media screen and (max-width: 1000px)
+		display: flex!important
+	&_line
+		width 35px
+		height 2px
+		background #fff
+	&_close
+		.burger_line:nth-child(1)
+			transform: rotate(55deg)
+			transform-origin: 0 100%
+			width 40px
+		.burger_line:nth-child(2)
+			display none
+		.burger_line:nth-child(3)
+			transform: rotate(-55deg)
+			transform-origin: 0 100%
+			width 40px
+
+
+
+.burger_always
+	display: flex!important
