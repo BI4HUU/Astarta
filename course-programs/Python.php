@@ -2,6 +2,15 @@
 /* Template Name: Python */
 ?>
 
+<?php
+	global $Title;
+	global $Description;
+	global $Keywords;
+	$Title = "ПРОФЕССИЯ PYTHON РАЗРАБОТЧИКА ЗА 300 ЗАНЯТИЙ";
+	$Description = "Python – язык программирования общего назначения. Его синтаксис прост и лаконичен. Область применения практически безгранична. С его помощью создают web-сайты, системные утилиты, облачные программы и искусственный интеллект. Возможно, вы даже не знали, что большая часть Youtube, Instagram и Dropbox написаны на Python.";
+	$Keywords = "ДО 10 ЧЕЛОВЕК В ГРУППЕ 300 ЗАНЯТИЙ ОНЛАЙН ОБУЧАЮТ ПРОГРАММИСТЫ Python";
+?>
+
 <?php get_header(); ?>
 
 <?php include 'nav-course.php'; ?>

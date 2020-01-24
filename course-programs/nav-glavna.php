@@ -1,7 +1,7 @@
 <header class="container-fluid">
 	<div class="container pt-3 pt-md-4 pb-3 pb-md-4">
 		<div class="row justify-content-between align-items-center">
-			<a class="logo text-white pt-3 pb-3 h4" href="/index.php">КУРСЫ ПРОГРАММИРОВАНИЯ</a>
+			<a class="logo text-white pt-3 pb-3 h4" href="https://курсы-программирования.рус/index.php">КУРСЫ ПРОГРАММИРОВАНИЯ</a>
 			<div class="burger align-content-between flex-wrap" onclick="togle_menu()">
 				<div class="burger_line"></div>
 				<div class="burger_line"></div>

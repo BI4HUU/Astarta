@@ -2,6 +2,15 @@
 /* Template Name: front-end-course */
 ?>
 
+<?php
+	global $Title;
+	global $Description;
+	global $Keywords;
+	$Title = "FRONT END CERTIFICATION TRAINING";
+	$Description = "Ни один современный сайт не обходится без динамической логики. Все уважающие себя ресурсы давно и активно используют технологию HTML5 которая пришла на смену такой технологии как Flash. Курс отлично подойдет тем, кто хочет получить прибыльную и востребованную интернет профессию.";
+	$Keywords = "HTML5, CSS3, JavaScript, JQuery, ДО 10 ЧЕЛОВЕК В ГРУППЕ 300 ЗАНЯТИЙ ОНЛАЙН ОБУЧАЮТ ПРОГРАММИСТЫ";
+?>
+
 <?php get_header(); ?>
 
 <?php include 'nav-course.php'; ?>
